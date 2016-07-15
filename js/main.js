@@ -3,7 +3,7 @@
   $(document).ready(function() {
 
     // Syntax highlighting
-    hljs.initHighlightingOnLoad();
+    // hljs.initHighlightingOnLoad();
 
     // Header
     var menuToggle = $('#js-mobile-menu').unbind();
@@ -16,6 +16,15 @@
         }
       });
     });
+    
+    // Lightbox2 options
+    lightbox.option({
+      'wrapAround': true
+    });
+    
+    // fitvid on embed
+    $('.media').fitVids();
+    
   });
 
 })(jQuery); // End of use strict

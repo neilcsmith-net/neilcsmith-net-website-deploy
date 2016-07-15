@@ -5,7 +5,7 @@ date:   2015-04-18 08:43:59
 author: Ben Centra
 categories: Jekyll
 tags:	jekyll welcome 
-cover:  "/assets/instacode.png"
+main_image_path: "/assets/header3.jpg"
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -16,11 +16,11 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 ### Tags and Categories
 
-If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the [jekyll-archive][jekyll-archive] gem.
+If you list one or more categories or tags in the front matter of your post, they will be included with the post and used for grouping on the post overview page.
 
-### Cover Images
+### Header Images
 
-To add a cover image to your post, set the "cover" property in the front matter with the relative URL of the image (i.e. <code>cover: "/assets/cover_image.jpg"</code>). 
+To add a main header image to your post, set the "main image path" property in the front matter with the relative URL of the image (i.e. <code>main_image_path: "/assets/header.jpg"</code>). 
 
 ### Code Snippets
 
@@ -50,4 +50,3 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 [highlight]:   https://highlightjs.org/
 [lightbox]:    http://lokeshdhakar.com/projects/lightbox2/
-[jekyll-archive]: https://github.com/jekyll/jekyll-archives

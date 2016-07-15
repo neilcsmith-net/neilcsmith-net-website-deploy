@@ -18,8 +18,9 @@ layout: default
     </header>
 
     <section id="content">
-        {{ content }}
-
+        <div class="main-text">
+            {{ content }}
+        </div>
         <aside>
             <section class="rss">
                 <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>

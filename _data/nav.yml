@@ -1,8 +1,9 @@
-- title: "Posts"
-  href: "/posts/"
-  
+ 
 - title: "Projects"
   href: "/projects/"
+  
+- title: "Software"
+  href: "/software/"
   
 - title: "About"
   href: "/about/"

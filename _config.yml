@@ -6,18 +6,17 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Neat Whiskey
-subtitle: A base theme built on Bourbon and Neat
+title: Neil C Smith
+subtitle: Artist | Technologist
 name: Neil C Smith
-description: A base theme built on Bourbon and Neat
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.example.com"
-logo: "/assets/logo.png"
-email: neil@eyedivision.com
+url: "http://www.neilcsmith.net"
+logo:
+email: neil@neilcsmith.net
 
 # Build settings
 markdown: kramdown
@@ -70,22 +69,22 @@ defaults:
 social:
   - name: Twitter
     icon: twitter
-    username: EyeDivision
-    url: https://twitter.com/EyeDivision
-    desc: Follow us on Twitter
+    username: neilcsmith_net
+    url: https://twitter.com/neilcsmith_net
+    desc: Follow me on Twitter
     share: true
 
   - name: Facebook
     icon: facebook
-    username: eyedivision
+    username: 
     url: 
     desc: Like us on Facebook
     share: true
 
   - name: GitHub
     icon: github
-    username:
-    url:
+    username: neilcsmith-net
+    url: https://github.com/neilcsmith-net
     desc: Fork us on GitHub
     share: false
 

@@ -1,46 +1,38 @@
 ---
 layout: default
 ---
+<article>
+  <header id="content-header">
+    <section id="page-title">
+      <h1>{{ page.title }}</h1>
+    </section>
+  </header>
 
-{% assign with_media = false %}
-{% if page.video_embed or page.images[0].image_path %}
-  {% assign with_media = true %}
-{% endif %}
+  <section id="content">
 
-<header id="content-header">
-  <section id="page-title">
-    <h1>{{ page.title }}</h1>
-  </section>
-</header>
+    <div class="date">{% include dates.html from=page.project_date to=page.project_to_date %}</div>
 
-<article id="content">
-  <section class="main-content {% if with_media %}with-media{% endif %}">
-    {{ content }}
-  </section>
-
-{% if with_media %}
-  <aside class="media">
+    <section class="main-content {% if page.video_embed %}with-media{% endif %}">
+      {{ content }}
+    </section>
 
     {% if page.video_embed %}
-    <section class="video-embed">
+    <aside class="media">
       {{ page.video_embed }}
-    </section>
+    </aside>
     {% endif %}
 
     {% if page.images[0].image_path %}
-    <section class="image-gallery">
+    <aside class="image-gallery">
       {% for image in page.images %}
-        {% if image.image_path %}
-        <a href="{% include imgpath.html src=image.image_path width=1280 %}" data-lightbox="gallery" data-title="{{ image.description }}">
-            {% include img.html src=image.image_path width=120 height=120 alt=image.description %}
-        </a>
-        {% endif %}
+      {% if image.image_path %}
+      <a href="{% include imgpath.html src=image.image_path width=1280 %}" data-lightbox="gallery" data-title="{{ image.description }}">
+        {% include img.html src=image.image_path width=120 height=120 alt=image.description %}
+      </a>
+      {% endif %}
       {% endfor %}
-    </section>
+    </aside>
     {% endif %}
 
-  </aside>
-{% endif %}
-
+  </section>
 </article>
-

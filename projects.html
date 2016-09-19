@@ -16,13 +16,11 @@ permalink: /projects/
   <section class="project">
     <a href="{{project.url}}">
       <h3 class="project-header">{{project.title}}</h3>
+      {% if project.main_image_path %}
       <div class="project-image">
-        {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 height=300 %}
-        {% else %}
-        {% include img.html src="/siteicon.png" width=400 height=300 %}
-        {% endif %}
+        {% include img.html src=project.main_image_path width=360 height=180 %}
       </div>
+      {% endif %}
       <div class="project-info">{% include dates.html from=project.project_date to=project.project_to_date %}
         {% if project.project_venue %}<br>{{ project.project_venue }}{% endif %}</div>
       <div class="project-description">

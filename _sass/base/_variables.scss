@@ -1,9 +1,7 @@
-// Google Fonts
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
 
 // Typography
 $base-font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; // $helvetica;
-$heading-font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", sans-serif; // $base-font-family;
+$heading-font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif; // $base-font-family;
 
 // Font Sizes
 $base-font-size: $em-base; // 16px
@@ -22,17 +20,18 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$dark-gray: #333;
-$medium-gray: #999;
+$dark-gray: #222;
+$dark-gray-translucent: rgba($dark-gray, 0.6);
+$medium-gray: #7f7f7f;
 $light-gray: #ddd;
-$blue: #2980b9;
+$action: #780113;
 $background-grey: #373535;
 $white: #fff;
 
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $action;
 $highlight-color: tint($action-color, 33%);
 
 // Border

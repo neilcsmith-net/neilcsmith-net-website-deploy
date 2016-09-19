@@ -9,6 +9,7 @@ exclude:
 title: Neil C Smith
 subtitle: Artist | Technologist
 name: Neil C Smith
+description: Neil C Smith, Artist & Technologist
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -28,7 +29,7 @@ permalink: pretty
 # Image CDN
 imagecdn:
   #staging: "http://ed-dev.imgix.net"
-  #production: "http://ed.imgix.net"
+  production: "http://ed-neilcsmith.imgix.net"
 
 # Collections
 collections:
@@ -134,10 +135,10 @@ social:
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
-    fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
-    fb_image_type: "image/png"
+#    fb_image: "/assets/logo.png"
+#    fb_image_width: 612
+#    fb_image_height: 605
+#    fb_image_type: "image/png"
 
-    twitter_image: "/assets/logo.png"
+#    twitter_image: "/assets/logo.png"
 

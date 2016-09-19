@@ -1,6 +1,7 @@
 ---
 title:
 description:
+project_venue:
 project_date:
 project_to_date:
 list: false

@@ -1,0 +1,30 @@
+
+body.front {
+  background-image: url("/assets/ncs-front-sm.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
+  @include media($tablet) {
+    background-image: url("/assets/ncs-front-lg.jpg");
+  }
+  .navigation {
+    background-color: $dark-gray-translucent;
+  }
+
+  .site-footer {
+    .copyright {
+      display: none;
+    }
+    a {
+      color: $white;
+      &:active,
+        &:focus,
+        &:hover {
+        color: darken($white, 20%);
+      }
+      @include media($tablet) {
+        font-size: 2rem;
+      }
+    }
+  }
+
+}

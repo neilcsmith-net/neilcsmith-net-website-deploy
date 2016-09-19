@@ -10,7 +10,8 @@ layout: default
 
   <section id="content">
 
-    <div class="date">{% include dates.html from=page.project_date to=page.project_to_date %}</div>
+    <div class="info">{% include dates.html from=page.project_date to=page.project_to_date %}
+      {% if page.project_venue %}<br>{{ page.project_venue }}{% endif %}</div>
 
     <section class="main-content {% if page.video_embed %}with-media{% endif %}">
       {{ content }}

@@ -1,3 +1,9 @@
+## Assets
+
+All media and assets Copyright (c) 2016 Neil C Smith
+
+## Code
+
 The MIT License (MIT)
 
 Copyright (c) 2016 Neil C Smith - Eye Division Ltd.

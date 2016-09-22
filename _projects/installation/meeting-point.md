@@ -6,7 +6,7 @@ project_date: 2014-03-01T00:00:00.000Z
 project_from_date:
 list: true
 main_image_path: /assets/meeting-point.jpg
-video_embed: '<iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/70oNTDKEWzw?rel=0" frameborder="0" allowfullscreen></iframe>'
+video_embed: '<iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/9D3cJDRF6Do?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
   - image_path: /assets/meeting-point1.jpg
     description:

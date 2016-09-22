@@ -1,9 +1,9 @@
 ---
 title: "Sound Pool"
-description: "An interactive audio-visual installation created for a solo exhibition at Banbury Museum"
+description: "An interactive audio-visual installation created for the Resonance solo exhibition"
 project_venue: "Banbury Museum"
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
+project_date: 2006-12-01T00:00:00.000Z
+project_from_date: 2006-11-01T00:00:00.000Z
 list: true
 main_image_path: "/assets/sound-pool-header.jpg"
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/YNe03b5BxLM?rel=0" frameborder="0" allowfullscreen></iframe>'

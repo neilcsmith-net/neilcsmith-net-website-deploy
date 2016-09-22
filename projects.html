@@ -21,7 +21,7 @@ permalink: /projects/
         {% include img.html src=project.main_image_path width=360 height=180 %}
       </div>
       {% endif %}
-      <div class="project-info">{% include dates.html from=project.project_date to=project.project_to_date %}
+      <div class="project-info">{% include dates.html to=project.project_date from=project.project_from_date %}
         {% if project.project_venue %}<br>{{ project.project_venue }}{% endif %}</div>
       <div class="project-description">
         {{project.description}}

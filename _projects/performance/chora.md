@@ -1,6 +1,6 @@
 ---
 title: Chora
-description: A generative msucial performance based on Darwinian algorithms
+description: A generative musical performance based on Darwinian algorithms
 project_venue: Oxford | Cork
 project_date: 2005-06-01T00:00:00.000Z
 project_from_date: 2002-10-01T00:00:00.000Z

@@ -1,7 +1,7 @@
 ---
 title: Radio Access Memory
 description: Improvised performance remixing live radio broadcasts
-project_venue:
+project_venue: Various UK and Ireland
 project_date: 2010-10-01T00:00:00.000Z
 project_from_date: 2002-06-01T00:00:00.000Z
 list: true

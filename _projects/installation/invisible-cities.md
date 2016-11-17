@@ -1,7 +1,7 @@
 ---
 title: Invisible Cities
 description: A generative projection created with Helen Ganly
-project_venue:
+project_venue: Oxford | Bonn | Bucharest
 project_date: 2006-05-01T00:00:00.000Z
 project_from_date: 2004-02-01T00:00:00.000Z
 list: true

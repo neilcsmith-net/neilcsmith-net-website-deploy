@@ -6,6 +6,7 @@
   box-sizing: border-box;
   max-width: 100%;
   a {
+    height: 100%;
     display: block;
     @include clearfix;
     padding: 1em;

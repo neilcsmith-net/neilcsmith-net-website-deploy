@@ -2,14 +2,28 @@
 title: Live Coding
 description: Improvised live-coded performances
 project_venue:
-project_date: 2016-11-01T00:00:00.000Z
+project_date: 2017-05-01T00:00:00.000Z
 project_from_date: 2016-10-01T00:00:00.000Z
 list: true
-main_image_path: /assets/live-coding.jpg
-video_embed: '<iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/c1rI6_Lg3eQ?rel=0" frameborder="0" allowfullscreen></iframe><iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/qTQoE5UHgP8?rel=0" frameborder="0" allowfullscreen></iframe>'
+main_image_path: /assets/amen.jpg
+video_embed: '<iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/SgE9POc5BdA?rel=0" frameborder="0" allowfullscreen></iframe><iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/c1rI6_Lg3eQ?rel=0" frameborder="0" allowfullscreen></iframe>'
 ---
-Over recent months I've been working on a couple of new improvised live-coding performance
+Over the last year I've been working on a couple of new improvised live-coding performance
 pieces using [Praxis LIVE](/software/).
+
+## AMEN $ Mother Function
+
+One sample, one function – a live-coded, single function demolition of the most
+ubiquitous sample in modern music. This new performance work is both an essay in
+conceptual minimalism and an attempt at filling the dance floor with the aid of 
+one wavetable and a little maths.
+
+The silent $ in the title (also used in the code), is in tribute to Gregory C. Coleman,
+the original drummer of the Amen break, who died homeless and broke.
+
+  * LPM : Radion, Amsterdam : May 18 2017
+  * Electric Nights : Athens : Apr 1 2017
+  * Audiograft : Old Fire Station, Oxford : Mar 10 2017
 
 ## Temperamental Recursions
 
@@ -20,11 +34,3 @@ the performance.
 
 The first live performance of this piece was in October 2016 in Hamilton, Canada,
 alongside my paper on Praxis LIVE at the International Conference on Live Coding.
-
-## AMEN $ Mother Function
-
-Still in development, this performance explores what can be achieved with just one sample
-and one function - a live-coded demolition of one of the most ubiquitous loops in modern
-music.
-
-Takes a little while to get going!

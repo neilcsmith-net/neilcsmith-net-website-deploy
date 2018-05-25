@@ -28,8 +28,8 @@ permalink: pretty
 
 # Image CDN
 imagecdn:
-  #staging: "http://ed-dev.imgix.net"
-  production: "http://ed-neilcsmith.imgix.net"
+  production: "https://images.weserv.nl?url=www.neilcsmith.net"
+  #development: "https://images.weserv.nl?url=www.neilcsmith.net"
 
 # Collections
 collections:

@@ -1,1 +1,1 @@
-{{site.imagecdn[jekyll.environment]}}{{include.src | uri_escape}}?fit=crop&crop=entropy{% if include.width %}&w={{include.width}}{% endif %}{% if include.height %}&h={{include.height}}{% endif %}
+{% if site.imagecdn[jekyll.environment] %}{{site.imagecdn[jekyll.environment]}}{{include.src | uri_escape}}&t=square&a=entropy{% if include.width %}&w={{include.width}}{% endif %}{% if include.height %}&h={{include.height}}{% endif %}{% else %}{{include.src | uri_escape}}{% endif %}

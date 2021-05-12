@@ -1,6 +1,4 @@
 # External gems
-gems:
-  - jekyll-sitemap
 
 include:
   - "/_redirects"
@@ -28,9 +26,6 @@ email: neil@neilcsmith.net
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
 permalink: pretty
 
 # Image CDN

@@ -12,13 +12,11 @@ and interactive installations. Breaking away from familiar uses of technology as
 medium, much of my work exists in real-time and real-space - each moment a unique and 
 unrepeatable experience.
 
-Integrally related to my artistic practice, I also work as a technologist with
-artists and organisations, specialising in developing and supporting free open-source technology.
-
-Alongside my freelance work, I've worked in various posts across the arts & voluntary sectors, 
-including spending 5 years as Arts Officer (Strategic Development) at Oxford City Council. I am now
-a director at [Eye Division Ltd.](http://www.eyedivision.com/) developing websites and applications
-for education, charity, arts and business. I particularly specialise in Drupal and Jekyll based development.
+I also work as a technologist, specialising in developing and supporting free
+open-source technology. In 2019 I founded [Codelerity Ltd.](https://www.codelerity.com)
+to pursue this work. Codelerity offer software development, consultancy and advice. We
+focus on real-time systems, real-time programming, media, embedded and tools on
+the JVM.
 
 ## Contact Details
 

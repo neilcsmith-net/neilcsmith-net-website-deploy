@@ -1,5 +1,4 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
-gem "jekyll", "~>2.4.0"
-gem "jekyll-sitemap", "~>0.8"
+gem "jekyll", "~>4.1.1"
+gem "jekyll-sitemap", "~>1.4.0"

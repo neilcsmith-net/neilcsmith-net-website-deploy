@@ -1,13 +1,12 @@
-.DS_Store
-
 # Compiled site
 _site
 
-# Sass garbage
-.sass-cache
+# Caches
+.sass-cache/
+.jekyll-cache/
 
 # Bundler
 Gemfile.lock
 .bundle/
 vendor/
-nbproject
+nbproject/

@@ -20,7 +20,7 @@ description: Neil C Smith, Artist & Technologist
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.neilcsmith.net"
+url: "https://www.neilcsmith.net"
 logo:
 email: neil@neilcsmith.net
 
